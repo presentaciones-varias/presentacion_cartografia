@@ -45,7 +45,7 @@ format:
   - Detección de grilla rHEALPix.
   - Detección de edificaciones.
   - Detección de calles / caminos.
-  - Consolidación a nivel de cluster.
+  - Consolidación en cluster.
 - Ejemplos.
   - Cluster 12 (crecimiento sostenido).
   - Cluster 06 (crecimiento reciente).
@@ -453,7 +453,7 @@ Clasificación basada en:
 
 
 
-## [Consolidación a nivel de cluster]{.big-par}
+## [Detección en Zonas de Cambio | Consolidación en cluster]{.big-par}
 
 ::: {.center}
 ![](imagenes/consolidation/consolidation.png){width="85%"}
