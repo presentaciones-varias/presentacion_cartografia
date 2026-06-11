@@ -168,51 +168,6 @@ Clasificación basada en:
 :::
 
 
-## [Detección de Cambios | Generación de clusters]{.big-par}
-
-
-:::{.center} 
-![](imagenes/deteccion_cambios/clusters0.png){ width="40%"}
-:::
-
-:::: {layout-ncol=2}
-
-:::{.fragment .center} 
-
-[Generación de buffer 52m]{.small-par}
-
-![](imagenes/deteccion_cambios/clusters1.png){ width="15%"}
-:::
-
-:::{.fragment .small-par .center} 
-
-[Identificación de pares de celdas que se intersectan]{.small-par}
-
-![](imagenes/deteccion_cambios/clusters2.png){ width="15%"}
-:::
-
-::::
-
-## [Detección de Cambios | Generación de clusters]{.big-par}
-
-:::: {layout-ncol=2}
-
-:::{.fragment .center} 
-[Formación de clusters]{.small-par}
-
-![](imagenes/deteccion_cambios/clusters3.png){.fade-in-then-out width="30%"}
-:::
-
-:::{.fragment .center} 
-[Output final con buffer para rellenar vacíos]{.small-par}
-
-![](imagenes/deteccion_cambios/clusters4.png){.fade-in-then-out width="30%"}
-
-:::
-
-::::
-
-
 
 ## [Detección de Cambios | Clusters por fenómeno]{.big-par}
 
@@ -842,7 +797,12 @@ Clasificación basada en:
 
 :::: -->
 
+## [Ejs. Clusters consolidados]{.big-par}
 
+:::{.center} 
+
+[![](imagenes/deteccion_cambios/ejs_consolidados.png){width="40%"}](https://inechile.sharepoint.com/:u:/s/cienciadedatos/IQCIIUw2zq5-Sa2fgH8nng66AQ_4yZHTB-GCs48_mNI4UMk?e=vLnlXz)
+:::
 
 ## [Trabajo futuro]{.big-par}
 
@@ -871,9 +831,51 @@ Clasificación basada en:
 []{.linea-superior} 
 []{.linea-inferior} 
 
+## [Anexo 1: Detección de Cambios | Generación de clusters]{.big-par}
 
 
-## [Detección en Zonas de Cambio | Grilla rHEALPix]{.big-par}
+:::{.center} 
+![](imagenes/deteccion_cambios/clusters0.png){ width="40%"}
+:::
+
+:::: {layout-ncol=2}
+
+:::{.fragment .center} 
+
+[Generación de buffer 52m]{.small-par}
+
+![](imagenes/deteccion_cambios/clusters1.png){ width="15%"}
+:::
+
+:::{.fragment .small-par .center} 
+
+[Identificación de pares de celdas que se intersectan]{.small-par}
+
+![](imagenes/deteccion_cambios/clusters2.png){ width="15%"}
+:::
+
+::::
+
+## [Anexo 1: Detección de Cambios | Generación de clusters]{.big-par}
+
+:::: {layout-ncol=2}
+
+:::{.fragment .center} 
+[Formación de clusters]{.small-par}
+
+![](imagenes/deteccion_cambios/clusters3.png){.fade-in-then-out width="30%"}
+:::
+
+:::{.fragment .center} 
+[Output final con buffer para rellenar vacíos]{.small-par}
+
+![](imagenes/deteccion_cambios/clusters4.png){.fade-in-then-out width="30%"}
+
+:::
+
+::::
+
+## [Anexo 2: Detección en Zonas de Cambio | Grilla rHEALPix]{.big-par}
 
 ::: {.incremental .medium-par}
 - Detección de grilla rHEALPix.
@@ -916,7 +918,7 @@ Clasificación basada en:
 
 
 
-## [Detección en Zonas de Cambio | Edificaciones (*buildings*)]{.big-par}
+## [Anexo 3: Detección en Zonas de Cambio | Edificaciones (*buildings*)]{.big-par}
 
 ::: {.incremental .medium-par}
 - Detección de edificaciones (*buildings*).
@@ -977,7 +979,7 @@ Step 1 — run_segmentation (prompt = "building")
 
 
 
-## [Detección en Zonas de Cambio | Calles / caminos (*roads*)]{.big-par}
+## [Anexo 4: Detección en Zonas de Cambio | Calles / caminos (*roads*)]{.big-par}
 
 ::: {.incremental .medium-par}
 - Detección de calles y caminos (*roads*).
@@ -1053,7 +1055,7 @@ Step 1 — run_segmentation (prompt = "road")
 
 
 
-## [Detección con ejemplo | Cluster 12 | Calles / caminos]{.big-par}
+## [Anexo 5: Detección con ejemplo | Cluster 12 | Calles / caminos]{.big-par}
 
 ::: {.center}
 **t = 202502** 
@@ -1063,7 +1065,7 @@ Step 1 — run_segmentation (prompt = "road")
 
 
 
-## [Detección con ejemplo | Cluster 12 | Calles / caminos]{.big-par}
+## [Anexo 6: Detección con ejemplo | Cluster 12 | Calles / caminos]{.big-par}
 
 ::: {.center}
 **t = 202502 | sin vs con ejemplo** 
@@ -1110,7 +1112,7 @@ Step 1 — run_segmentation (prompt = "road")
 
 
 
-## [Detección con ejemplo | Cluster 06 | Calles / caminos]{.big-par}
+## [Anexo 7: Detección con ejemplo | Cluster 06 | Calles / caminos]{.big-par}
 
 ::: {.center}
 **t = 202502** 
@@ -1120,7 +1122,7 @@ Step 1 — run_segmentation (prompt = "road")
 
 
 
-## [Detección con ejemplo | Cluster 06 | Calles / caminos]{.big-par}
+## [Anexo 8: Detección con ejemplo | Cluster 06 | Calles / caminos]{.big-par}
 
 ::: {.center}
 **t = 202502 | sin vs con ejemplo** 
