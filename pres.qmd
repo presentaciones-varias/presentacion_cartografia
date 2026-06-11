@@ -39,7 +39,7 @@ format:
 - Motivación
 - Etapa 1: Detección de Cambios.
   - Procesamiento de Dynamic World.
-  - Clasificación de Clusters.
+  - Clasificación de clusters.
 - Etapa 2: Detección en Zonas de Cambio.
   - Captura de imágenes de alta resolución (HR).
   - Detección de grilla rHEALPix.
@@ -51,6 +51,7 @@ format:
   - Cluster 06 (crecimiento reciente).
   - Cluster 02 (crecimiento reciente).
   - Cluster 03 (decrecimiento o pérdida).
+  - Clusters consolidados.
 - Trabajo futuro.
 :::
 
@@ -797,11 +798,11 @@ Clasificación basada en:
 
 :::: -->
 
-## [Ejs. Clusters consolidados]{.big-par}
+## [Ejs. | Clusters consolidados]{.big-par}
 
 :::{.center} 
 
-[![](imagenes/deteccion_cambios/ejs_consolidados.png){width="40%"}](https://inechile.sharepoint.com/:u:/s/cienciadedatos/IQCIIUw2zq5-Sa2fgH8nng66AQ_4yZHTB-GCs48_mNI4UMk?e=vLnlXz)
+[![](imagenes/deteccion_cambios/ejs_consolidados.png){width="50%"}](https://inechile.sharepoint.com/:u:/s/cienciadedatos/IQCIIUw2zq5-Sa2fgH8nng66AQ_4yZHTB-GCs48_mNI4UMk?e=vLnlXz)
 :::
 
 ## [Trabajo futuro]{.big-par}
@@ -827,11 +828,15 @@ Clasificación basada en:
 
 [**Junio 2026**]{.big-par .center-justified}
 
+[**ANEXO**]{.big-par .center-justified}
+
 
 []{.linea-superior} 
 []{.linea-inferior} 
 
-## [Anexo 1: Detección de Cambios | Generación de clusters]{.big-par}
+
+
+## [Detección de Cambios | Generación de clusters]{.big-par}
 
 
 :::{.center} 
@@ -856,7 +861,7 @@ Clasificación basada en:
 
 ::::
 
-## [Anexo 1: Detección de Cambios | Generación de clusters]{.big-par}
+## [Detección de Cambios | Generación de clusters]{.big-par}
 
 :::: {layout-ncol=2}
 
@@ -875,7 +880,7 @@ Clasificación basada en:
 
 ::::
 
-## [Anexo 2: Detección en Zonas de Cambio | Grilla rHEALPix]{.big-par}
+## [Detección en Zonas de Cambio | Grilla rHEALPix]{.big-par}
 
 ::: {.incremental .medium-par}
 - Detección de grilla rHEALPix.
@@ -918,7 +923,7 @@ Clasificación basada en:
 
 
 
-## [Anexo 3: Detección en Zonas de Cambio | Edificaciones (*buildings*)]{.big-par}
+## [Detección en Zonas de Cambio | Edificaciones (*buildings*)]{.big-par}
 
 ::: {.incremental .medium-par}
 - Detección de edificaciones (*buildings*).
@@ -979,7 +984,7 @@ Step 1 — run_segmentation (prompt = "building")
 
 
 
-## [Anexo 4: Detección en Zonas de Cambio | Calles / caminos (*roads*)]{.big-par}
+## [Detección en Zonas de Cambio | Calles / caminos (*roads*)]{.big-par}
 
 ::: {.incremental .medium-par}
 - Detección de calles y caminos (*roads*).
@@ -1055,7 +1060,7 @@ Step 1 — run_segmentation (prompt = "road")
 
 
 
-## [Anexo 5: Detección con ejemplo | Cluster 12 | Calles / caminos]{.big-par}
+## [Detección con ejemplo | Cluster 12 | Calles / caminos]{.big-par}
 
 ::: {.center}
 **t = 202502** 
@@ -1065,7 +1070,7 @@ Step 1 — run_segmentation (prompt = "road")
 
 
 
-## [Anexo 6: Detección con ejemplo | Cluster 12 | Calles / caminos]{.big-par}
+## [Detección con ejemplo | Cluster 12 | Calles / caminos]{.big-par}
 
 ::: {.center}
 **t = 202502 | sin vs con ejemplo** 
@@ -1112,7 +1117,7 @@ Step 1 — run_segmentation (prompt = "road")
 
 
 
-## [Anexo 7: Detección con ejemplo | Cluster 06 | Calles / caminos]{.big-par}
+## [Detección con ejemplo | Cluster 06 | Calles / caminos]{.big-par}
 
 ::: {.center}
 **t = 202502** 
@@ -1122,7 +1127,7 @@ Step 1 — run_segmentation (prompt = "road")
 
 
 
-## [Anexo 8: Detección con ejemplo | Cluster 06 | Calles / caminos]{.big-par}
+## [Detección con ejemplo | Cluster 06 | Calles / caminos]{.big-par}
 
 ::: {.center}
 **t = 202502 | sin vs con ejemplo** 
