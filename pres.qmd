@@ -52,7 +52,7 @@ format:
   - Cluster 02 (crecimiento reciente).
   - Cluster 03 (decrecimiento o pérdida).
   - Clusters consolidados.
-- Trabajo futuro.
+- Trabajo en curso y futuro.
 :::
 
 
@@ -95,7 +95,7 @@ format:
   - Clasificar cambios detectados en diversos fenómenos. Ej: crecimiento sostenido, decrecimiento, etc.
 - **Detección en Zonas de Cambio:** foco en áreas de cambios detectados en etapa anterior.
   - Aplicar un modelo de detectión y segmentación de objetos (SAM3) para detectar infraestructura relevante para la actualización de la cartografía INE.
-  - Georeferenciar infraestructura detectada (edificaciones y calles / caminos), como insumo para la actualización de la cartografía INE. 
+  - Georreferenciar infraestructura detectada (edificaciones y calles / caminos), como insumo para la actualización de la cartografía INE. 
 - Producto Mínimo Viable (MVP): Gran Concepción (Dentro del LUC).
   - Procesamiento en curso para otras regiones dentro del LUC: Iquique, Valparaíso, Santiago. 
   - Extensión a cambios en cartografía fuera del LUC.
@@ -805,16 +805,19 @@ Clasificación basada en:
 [![](imagenes/deteccion_cambios/ejs_consolidados.png){width="50%"}](https://inechile.sharepoint.com/:u:/s/cienciadedatos/IQCIIUw2zq5-Sa2fgH8nng66AQ_4yZHTB-GCs48_mNI4UMk?e=vLnlXz)
 :::
 
-## [Trabajo futuro]{.big-par}
+## [Trabajo en curso y futuro]{.big-par}
 
 ::: {.incremental .medium-par}
 - Consolidación de edificaciones y calles / caminos.
   - Limpieza final de polígonos detectados agrupados a nivel de cluster, aplicando filtros similares a los usados en la detección para capturas individuales. 
+  - Mejoramiento de la georreferenciación, en particular para áreas donde el relieve es significativo.
 - Reconstrucción de cartografía vial mediante líneas centrales y análisis de conectividad.
 - Integración de las dos etapas de procesamiento en un flujo automático único: 
   - Detección de Cambios → Detección en Zonas de Cambio.
-- Procesamiento para otras regiones dentro del LUC: Iquique, Valparaíso, Santiago. 
-- Extensión de procesamiento para cambios detectados fuera del LUC.
+- Extensión de procesamiento, para: 
+  - otras regiones dentro del LUC: Iquique, Valparaíso, Santiago. 
+  - cambios detectados fuera del LUC.
+  - áreas de especial interés para la cartografía INE.
 :::
 
 
