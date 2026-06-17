@@ -97,8 +97,6 @@ format:
   - Aplicar un modelo de detectión y segmentación de objetos (SAM3) para detectar infraestructura relevante para la actualización de la cartografía INE.
   - Georreferenciar infraestructura detectada (edificaciones y calles / caminos), como insumo para la actualización de la cartografía INE. 
 - Producto Mínimo Viable (MVP): Gran Concepción (dentro del LUC).
-  <!-- - Procesamiento en curso para otras regiones dentro del LUC: Iquique, Valparaíso, Santiago. 
-  - Extensión a cambios en cartografía fuera del LUC. -->
 :::
 
 
