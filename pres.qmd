@@ -93,7 +93,7 @@ format:
 - **Detección de Cambios:** basado en dataset de Uso y Cobertura de Suelo (Dynamic World V1).
   - Detectar áreas que han sufrido cambios en zonas urbanas en la cartografía INE.
   - Clasificar cambios detectados en diversos fenómenos. Ej: crecimiento sostenido, decrecimiento, etc.
-- **Detección en Zonas de Cambio:** foco en áreas de cambios detectados en etapa anterior.
+- **Detección en Zonas de Cambio:** zoom en áreas de cambios detectados en etapa anterior.
   - Aplicar un modelo de detectión y segmentación de objetos (SAM3) para detectar infraestructura relevante para la actualización de la cartografía INE.
   - Georreferenciar infraestructura detectada (edificaciones y calles / caminos), como insumo para la actualización de la cartografía INE. 
 - Producto Mínimo Viable (MVP): Gran Concepción (Dentro del LUC).
